@@ -7,6 +7,9 @@ import 'amfe-flexible'
 // 导入vant移动端组件库
 import vant from 'vant'
 import 'vant/lib/index.css'
+// 自己的样式
+import '@/styles/index.less'
+
 Vue.use(vant)
 
 Vue.config.productionTip = false
